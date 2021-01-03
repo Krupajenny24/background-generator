@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+body, html{
+    width: 100%;
+    height:100%;
+    font-family: 'Montserrat', sans-serif;
+    background: url(F:\web-designing\udemy_files\BGimage_carDr.jpg) no-repeat center center fixed;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%r;
+    background-size: 100% 100%;
+}
+h1{
+    font-size: 3rem;
+    color:#fcf8f8;   
+}
+hr{
+    border-color:#ad0845 ;
+    border-width: 5px;
+}
+.buffer{
+    height: 50px;
+}
+.btn{
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+.btn-primary{
+    background-color:#ad0845;
+    border-color:#ad0845;
+}
+.btn-primary:hover {
+    background-color:rgba(202, 49, 11, 0.521);
+    border-color:rgba(202, 49, 11, 0.521) ;
+    border-width: 4px;
+}
+.btn-xl{
+    font-size: 25px;
+}
